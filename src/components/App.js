@@ -7,8 +7,8 @@ function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" exact component={Home}></Route>
-                <Route path="/:id" component={Detail}></Route>
+                <Route path="/" extract element={<Home />}></Route>
+                <Route path="/:id" element={<Detail />}></Route>
             </Routes>
         </BrowserRouter>
 
