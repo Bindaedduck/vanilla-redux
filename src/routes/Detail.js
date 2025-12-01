@@ -1,0 +1,1 @@
+export default () => "Detail"; //문자열이 안나온다.
